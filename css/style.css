@@ -426,6 +426,8 @@ th {
   padding: 0;
 }
 
+
+/*temporary coloring*/
 body {
   background-color: LightGray;
 }
@@ -434,6 +436,14 @@ section, div {
   border: 1px solid Chocolate;
 }
 
+
+/*Resets*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 
 /*Navigation Section*/
@@ -448,9 +458,20 @@ section, div {
 }
 
 img {
-  margin-left: 15px;
   height: 70px;
 }
 
+.links {
+  float: right;
+}
+
+.content {
+  padding: 0px 15px;
+}
+
+.links > li {
+  display: inline-block;
+  list-style: none;
+}
 
 
