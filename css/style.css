@@ -558,13 +558,13 @@ button > p {
   padding: 70px 0;
 }
 
-.three-icons > h1 {
+.three-icons > h2 {
   color: black;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 300;
   margin-bottom: -0.3em;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .three-icons > ul > li > h3 {
