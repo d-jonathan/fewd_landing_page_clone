@@ -429,7 +429,7 @@ th {
 
 /*temporary coloring*/
 body {
-  background-color: LightGray;
+  background-color: white;
 }
 
 section, div {
@@ -618,6 +618,22 @@ button > p {
 .social > .content > p {
   font-size: 14px;
   color: LightGray;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    backround-color: #FFFFFF;
+    width: 970px;
+}
+
+i {
+  border: 1px solid #979797;
+  border-radius: 100%;
+  width: 35px; height: 35px;
+  color: #A6C4E7;
 }
 
 
