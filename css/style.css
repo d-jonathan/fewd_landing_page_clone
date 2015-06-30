@@ -455,9 +455,8 @@ html {
 }
 
 .content {
-  width: 970px;
-  height: 70px;
   margin: 0 auto;
+  font-family: 'Roboto', sans-serif; 
 }
 
 img {
@@ -469,9 +468,10 @@ img {
   margin-top: 28px;
 }
 
-.content {
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
   padding: 0px 15px;
-  font-family: 'Roboto', sans-serif; 
   font-size: 16px; 
   color: #838994; 
   letter-spacing: 0.03em;
@@ -590,6 +590,36 @@ button > p {
   display: inline-block;
   padding: 0 3.5em;
 }
+
+/*Footer*/
+
+.social {
+  background-color: white;
+}
+
+.social > .content {
+  text-align: center;
+}
+
+.social > .content > h4 {
+  font-size: 16px;
+}
+
+.social > .content > ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.social > .content > ul > li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.social > .content > p {
+  font-size: 14px;
+  color: LightGray;
+}
+
 
 
 
