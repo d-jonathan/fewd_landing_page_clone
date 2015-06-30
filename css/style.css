@@ -542,9 +542,9 @@ button:hover {
 
 button > p {
   font-family: 'Roboto', sans-serif; 
-  font-size: 18px;
+  font-size: 24px;
   color: #FFFFFF;
-  line-height: 18px;
+  line-height: 28px;
   text-align: center;
 }
 
