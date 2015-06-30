@@ -549,4 +549,44 @@ button > p {
 }
 
 
+/*Icon section*/
+.three-icons {
+  background-color: white;
+  padding: 70px 0;
+}
+
+.three-icons > h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: -0.3em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.three-icons > ul > li > h3 {
+  color: black;
+  font-size: 25px;
+  font-weight: 300;
+
+}
+
+.three-icons > ul > li > img {
+  height: 127px;
+  
+}
+
+.three-icons > ul {
+  list-style: none;
+  margin: 20px auto;
+  text-align: center;
+  padding-left: 0;
+}
+
+.three-icons > ul > li {
+  display: inline-block;
+  padding: 0 3.5em;
+}
+
+
 
