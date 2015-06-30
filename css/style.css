@@ -497,34 +497,36 @@ img {
 .introduction {
   min-width: 970px;
   margin: 0 auto;
-  background-image: url("http://localhost:8080/landing-page/img/first-background.jpg");
+  background-image: url("../img/first-background.jpg");
+  background-position: 0 bottom;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 590px;
+  overlow: auto;
 }
 
 .content-intro {
-  padding-top: 8em;
+  margin-top: 250px;
   font-family: 'Roboto', sans-serif; 
   color: #FFFFFF; 
-  letter-spacing: 0.03em;
+  letter-spacing: 0.01em;
   -webkit-font-smoothing: antialiased;
-  margin: 0 auto;
   text-align: center;
 }
 
 .content-intro > h1 {
-  font-size: 44px;
+  font-size: 50px;
   font-weight: 300;
   margin-bottom: -0.3em;
 }
 
 .content-intro > h3 {
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 300;
 }
 
-.button {
-  background: #FA6530;
+button {
+  background-color: #FA6530;
   border: 1px solid #FA6530; 
   border-radius: 8px;
   width: 150px;
@@ -533,12 +535,12 @@ img {
   transition: background-color 200ms ease;
 }
 
-.button:hover {
+button:hover {
   cursor: pointer;
   background-color: #FF4300;
 }
 
-.button > p {
+button > p {
   font-family: 'Roboto', sans-serif; 
   font-size: 18px;
   color: #FFFFFF;
